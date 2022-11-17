@@ -14,7 +14,7 @@ class RestaurantsController < ApplicationController
   def edit
   end
 
-  # def destroy
-    # @restaurant.destroy redirect_to restaurants_url
-  # end
+  def destroy
+    @restaurant.destroy redirect_to restaurants_url
+  end
 end
